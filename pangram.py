@@ -6,3 +6,4 @@ def cheak(text):
 print (cheak('abc') == False)
 print (cheak('abcdefghijklmnopqrstuvwxyz') == True)
 print (cheak('ABCDEFGHIJKLMNOPQRSTUVWXYZ') == True)
+print (cheak('Quick brown fox jumps over the lazy dog') == True)
